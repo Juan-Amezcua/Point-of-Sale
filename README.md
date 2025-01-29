@@ -24,7 +24,7 @@ A simple Point of Sale (POS) system built with PHP and MySQL for managing admini
 
 2. **Setup**:
    - Clone/download the repository into your server's `htdocs` or `www` directory.
-   - Create a MySQL database named `punto.venta` and import the tables using the SQL schema inferred from the code (see [Database Structure](#database-structure)).
+   - Create a MySQL database named `punto.venta` and import the tables using the SQL schema inferred from the code.
    - Update `connection.php` with your database credentials:
      ```php
      $host = "localhost";
